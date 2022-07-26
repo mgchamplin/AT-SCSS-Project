@@ -1,0 +1,66 @@
+.control_panel_container {
+    border-top:     $control-panel-border-style;
+    border-left:    $control-panel-border-style;
+    border-right:   $control-panel-border-style;
+  
+    height: 4em;
+    @include FlexDirection( row );
+    justify-content: space-between;
+}
+
+
+.control_panel_button {
+        background-color: $control-panel-button-color;
+        box-shadow: 0.1em 0.1em;
+
+        @include MarginTopLeft(1em);
+        text-align: center;
+        height: 60%;
+        font-size: 1em;
+        color:font_color_for_control_panel(true);
+}
+
+.deal_cards_button {
+    width: 18%;
+    &:hover{
+        color: white;
+    }
+}
+  
+.small_button {
+    width: 15%;
+    font-size: medium;
+}
+  
+.options_panel_container {
+    border-left: $options-panel-border-style;
+    border-right: $options-panel-border-style;
+    height: 7em;
+    @include FlexDirection( row );
+}
+  
+.card_selection_pulldown {
+    margin-left: 1em;
+    background-color: $card-selection-pulldown-color;
+    box-shadow: 0.1em 0.1em;
+    height: 20%;
+    color: $card-selection-pulldown-font-color;
+    font-size: 1em;
+    width: 18%;
+    text-align: center;
+
+    &:hover {
+        color: $card-selection-pulldown-hover-font-color;
+    }
+}
+  
+.status_bar_class {
+    color: $status-bar-color;
+    font-size: 1.8em;
+    margin-top: 0%;
+    margin-left: 2em;
+    width: 50%;
+    height: 75%;
+    text-align: center;
+    padding-top: 0.5em;
+}

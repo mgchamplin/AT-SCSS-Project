@@ -1,0 +1,12 @@
+{
+  "name": "at-scss-project",
+  "version": "1.0.0",
+  "description": "Match Game Challenge project",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

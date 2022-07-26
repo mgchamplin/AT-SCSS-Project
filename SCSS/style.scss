@@ -1,0 +1,60 @@
+@import "constants"; 
+@import "utilities";
+@import "control-panel";
+@import "sound-button";
+@import "timer";
+
+body {
+    margin-top: 2em;
+    background-image: url("../assets/card_back.jpg");
+  }
+  
+.game_board_container {
+    $game-board-width: 80%;
+    @include MarginLeftRight(auto);
+    background-image: url("../assets/FeltTop.jpg");
+  
+    border: $game-board-border-style;
+    min-width: $game-board-min-width;
+    max-width: $game-board-max-width;
+  }
+  
+h1 {
+    text-align: center;
+    width: 100%;
+    color: $match-game-challenge-color;
+  
+    margin-top: 0.2em;
+    font-size: 3em;
+    font-family: "Franklin Gothic Medium";
+
+    a {
+        color:green;
+    }
+}
+  
+.card_group_container {
+    height: 40em;
+    @include MarginLeftRight(auto);
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border: $card-border-style;
+
+    .expansion_x {
+        width:50%;
+    }
+}
+  
+.card {
+    @include MarginTopLeft(1em);
+    width: 8%;
+
+    .ridge_x {
+        color:black;
+    }
+  }
+
+
+ 

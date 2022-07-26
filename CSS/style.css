@@ -1,0 +1,137 @@
+.control_panel_container {
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  height: 4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.control_panel_button {
+  background-color: rgb(53, 196, 53);
+  box-shadow: 0.1em 0.1em;
+  margin-top: 1em;
+  margin-left: 1em;
+  text-align: center;
+  height: 60%;
+  font-size: 1em;
+  color: black;
+}
+
+.deal_cards_button {
+  width: 18%;
+}
+.deal_cards_button:hover {
+  color: white;
+}
+
+.small_button {
+  width: 15%;
+  font-size: medium;
+}
+
+.options_panel_container {
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  height: 7em;
+  display: flex;
+  flex-direction: row;
+}
+
+.card_selection_pulldown {
+  margin-left: 1em;
+  background-color: rgb(53, 196, 53);
+  box-shadow: 0.1em 0.1em;
+  height: 20%;
+  color: black;
+  font-size: 1em;
+  width: 18%;
+  text-align: center;
+}
+.card_selection_pulldown:hover {
+  color: whiteblack;
+}
+
+.status_bar_class {
+  color: white;
+  font-size: 1.8em;
+  margin-top: 0%;
+  margin-left: 2em;
+  width: 50%;
+  height: 75%;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+.sound_button_class {
+  box-shadow: 0.1em 0.1em;
+  border-radius: 0.5em;
+  margin-top: 1em;
+  margin-right: 1em;
+  width: 4%;
+  height: 42%;
+}
+
+.timer_class {
+  background-color: rgb(223, 95, 10);
+  border: 3px solid black;
+  font-size: 1.4em;
+  margin-top: 1.6%;
+  margin-right: 6em;
+  width: 30%;
+  height: 55%;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 0.5em;
+}
+
+body {
+  margin-top: 2em;
+  background-image: url("../assets/card_back.jpg");
+}
+
+.game_board_container {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../assets/FeltTop.jpg");
+  border: 3px solid white;
+  min-width: 600px;
+  max-width: 1000px;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  color: white;
+  margin-top: 0.2em;
+  font-size: 3em;
+  font-family: "Franklin Gothic Medium";
+}
+h1 a {
+  color: green;
+}
+
+.card_group_container {
+  height: 40em;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  border: 5px solid black;
+}
+.card_group_container .expansion_x {
+  width: 50%;
+}
+
+.card {
+  margin-top: 1em;
+  margin-left: 1em;
+  width: 8%;
+}
+.card .ridge_x {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

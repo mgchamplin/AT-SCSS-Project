@@ -1,0 +1,35 @@
+@mixin FlexDirection($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+
+@mixin MarginLeftRight($margin) {
+    margin-left:$margin;
+    margin-right:$margin;
+}
+
+@mixin MarginTopLeft($margin) {
+    margin-top:$margin;
+    margin-left:$margin;
+}
+
+@mixin MarginTopRight($margin) {
+    margin-top:$margin;
+    margin-right:$margin;
+}
+
+@function font_color_for_control_panel($control_panel) {
+    @if ($control_panel) {
+        @return black;
+    } @else {
+        @return white;
+    }
+}
+
+@function width_size($if_top_panel){
+    @if ($if_top_panel) {
+        @return 100%;
+    } @else {
+        @return 80%;
+    }
+}

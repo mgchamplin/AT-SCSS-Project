@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Memory Match Game</title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+
+    <body>
+        <div id="game_board" class="game_board_container">
+
+            <h1>Match Game Challenge</h1>
+
+            <div id="control_panel" class="control_panel_container">
+                <button class="control_panel_button deal_cards_button"
+                    onclick="startGame()">Deal
+                    Cards</button>
+
+                <h2 id="timer" class="timer_class">Timer: 00:00</h2>
+            </div>
+
+            <div id="options_panel" class="options_panel_container">
+                <select id="card_selector" class="card_selection_pulldown">
+                    <option value=0>Select Cards</option>
+                    <option value=18>18 Cards</option>
+                    <option value=30>30 Cards</option>
+                    <option value=50>50 Cards</option>
+                </select>
+                <h2 id="status_bar" class="status_bar_class">Select your cards &
+                    click on Deal Cards</h2>
+            </div>
+
+            <div id="card_group" class="card_group_container"></div>
+
+            <script src="game.js"></script>
+        </body>
+    </html>
