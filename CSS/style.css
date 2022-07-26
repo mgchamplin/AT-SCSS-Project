@@ -90,6 +90,17 @@ body {
   margin-top: 2em;
   background-image: url("../assets/card_back.jpg");
 }
+body h1 {
+  text-align: center;
+  width: 100%;
+  color: white;
+  margin-top: 0.2em;
+  font-size: 3em;
+  font-family: "Franklin Gothic Medium";
+}
+body h1 a {
+  color: green;
+}
 
 .game_board_container {
   margin-left: auto;
@@ -98,18 +109,6 @@ body {
   border: 3px solid white;
   min-width: 600px;
   max-width: 1000px;
-}
-
-h1 {
-  text-align: center;
-  width: 100%;
-  color: white;
-  margin-top: 0.2em;
-  font-size: 3em;
-  font-family: "Franklin Gothic Medium";
-}
-h1 a {
-  color: green;
 }
 
 .card_group_container {
@@ -132,6 +131,26 @@ h1 a {
 }
 .card .ridge_x {
   color: black;
+}
+
+footer {
+  color: white;
+}
+footer div {
+  margin-left: 2em;
+  font-size: 1em;
+}
+footer div a {
+  color: blue;
+}
+footer div h2 {
+  font-size: 1.2em;
+}
+footer div h3 {
+  font-size: 1em;
+}
+footer div p {
+  font-size: 0.8em;
 }
 
 /*# sourceMappingURL=style.css.map */

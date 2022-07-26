@@ -6,16 +6,19 @@
 @mixin MarginLeftRight($margin) {
     margin-left:$margin;
     margin-right:$margin;
+    @debug "LeftRight margin set #{$margin}";
 }
 
 @mixin MarginTopLeft($margin) {
     margin-top:$margin;
     margin-left:$margin;
+    @debug "TogLeft margin set #{$margin}";
 }
 
 @mixin MarginTopRight($margin) {
     margin-top:$margin;
     margin-right:$margin;
+    @debug "TopRight margin set #{$margin}";
 }
 
 @function font_color_for_control_panel($control_panel) {
